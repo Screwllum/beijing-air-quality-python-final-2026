@@ -1,0 +1,10 @@
+{
+  "threshold": 166.66666666666666,
+  "high_n": 433,
+  "high_fraction": 0.10275272899857618,
+  "high_sse_fraction": 0.4776409810880243,
+  "method": "Supplementary diagnostics added after the initial test evaluation; main model/parameters unchanged.",
+  "alpha": 10,
+  "bootstrap_seed": 42,
+  "bootstrap_repeats": 1500
+}

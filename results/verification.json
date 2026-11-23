@@ -1,0 +1,22 @@
+{
+  "unit_tests": {
+    "status": "passed",
+    "tests_run": 15,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "expected_failures": 0,
+    "unexpected_successes": 0
+  },
+  "verified_at": "2026-11-23T16:17:42.753309+00:00",
+  "pdf_pages": 15,
+  "pdf_figures": 15,
+  "pdf_outline_sections": 19,
+  "notebook_executed_code_cells": 16,
+  "notebook_error_outputs": 0,
+  "original_archive_sha256_verified": true,
+  "github_url": "https://github.com/Screwllum/beijing-air-quality-python-final-2026",
+  "layout": "continuous",
+  "pdf_sha256": "1ec6ed015547b4995b456e82261dccfb1edae9a2b49123161984078806abdf08",
+  "pdf_text_characters": 14807
+}

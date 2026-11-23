@@ -1,0 +1,24 @@
+[
+  {
+    "model": "Ridge",
+    "reference": "Persistence",
+    "block_days": 7,
+    "repeats": 1500,
+    "rmse_improvement": 20.091476127696914,
+    "ci95": [
+      14.353579244474071,
+      26.45424911044565
+    ]
+  },
+  {
+    "model": "Ridge",
+    "reference": "RandomForest",
+    "block_days": 7,
+    "repeats": 1500,
+    "rmse_improvement": 5.542438031255195,
+    "ci95": [
+      1.634553471056271,
+      9.900225803361069
+    ]
+  }
+]

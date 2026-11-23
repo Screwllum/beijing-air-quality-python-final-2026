@@ -1,0 +1,15 @@
+{
+  "title": "Beijing Multi-Site Air Quality",
+  "creator": "Song Chen",
+  "citation": "Chen, S. (2017). Beijing Multi-Site Air Quality [Dataset]. UCI Machine Learning Repository.",
+  "page": "https://archive.ics.uci.edu/dataset/501/beijing+multi+site+air+quality",
+  "doi": "https://doi.org/10.24432/C5RK5G",
+  "download_url": "https://archive.ics.uci.edu/static/public/501/beijing+multi+site+air+quality+data.zip",
+  "retrieved": "2026-11-20",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "archive": "raw/beijing-air-quality.zip",
+  "inner_archive": "PRSA2017_Data_20130301-20170228.zip",
+  "sha256": "b04da438b2f331ac0ffd45aebdfec0d20d2367feb5f6948c4b1f7ce1191e33c4",
+  "modifications": "Original archive unmodified; daily aggregation and causal features created by src/data.py. See README for rules."
+}

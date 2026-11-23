@@ -1,0 +1,112 @@
+[
+  {
+    "model": "Ridge",
+    "reference": "Persistence",
+    "block_days": 1,
+    "repeats": 1500,
+    "rmse_improvement": 20.091476127696914,
+    "ci95": [
+      12.608858611134579,
+      26.514485478099157
+    ]
+  },
+  {
+    "model": "Ridge",
+    "reference": "RandomForest",
+    "block_days": 1,
+    "repeats": 1500,
+    "rmse_improvement": 5.542438031255195,
+    "ci95": [
+      1.3360067530451087,
+      9.939381424435272
+    ]
+  },
+  {
+    "model": "Ridge",
+    "reference": "Persistence",
+    "block_days": 3,
+    "repeats": 1500,
+    "rmse_improvement": 20.091476127696914,
+    "ci95": [
+      13.318996267788869,
+      26.574091061130527
+    ]
+  },
+  {
+    "model": "Ridge",
+    "reference": "RandomForest",
+    "block_days": 3,
+    "repeats": 1500,
+    "rmse_improvement": 5.542438031255195,
+    "ci95": [
+      1.5982179717640936,
+      9.654335673480887
+    ]
+  },
+  {
+    "model": "Ridge",
+    "reference": "Persistence",
+    "block_days": 7,
+    "repeats": 1500,
+    "rmse_improvement": 20.091476127696914,
+    "ci95": [
+      14.353579244474075,
+      26.45424911044565
+    ]
+  },
+  {
+    "model": "Ridge",
+    "reference": "RandomForest",
+    "block_days": 7,
+    "repeats": 1500,
+    "rmse_improvement": 5.542438031255195,
+    "ci95": [
+      1.634553471056271,
+      9.900225803361062
+    ]
+  },
+  {
+    "model": "Ridge",
+    "reference": "Persistence",
+    "block_days": 14,
+    "repeats": 1500,
+    "rmse_improvement": 20.091476127696914,
+    "ci95": [
+      13.692498499574118,
+      27.184039720352022
+    ]
+  },
+  {
+    "model": "Ridge",
+    "reference": "RandomForest",
+    "block_days": 14,
+    "repeats": 1500,
+    "rmse_improvement": 5.542438031255195,
+    "ci95": [
+      1.6091713614685088,
+      9.957256999125587
+    ]
+  },
+  {
+    "model": "Ridge",
+    "reference": "Persistence",
+    "block_days": 28,
+    "repeats": 1500,
+    "rmse_improvement": 20.091476127696914,
+    "ci95": [
+      12.852098649322398,
+      27.494574775287052
+    ]
+  },
+  {
+    "model": "Ridge",
+    "reference": "RandomForest",
+    "block_days": 28,
+    "repeats": 1500,
+    "rmse_improvement": 5.542438031255195,
+    "ci95": [
+      2.0349998083443555,
+      9.552266528435243
+    ]
+  }
+]

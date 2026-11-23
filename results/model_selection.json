@@ -1,0 +1,58 @@
+{
+  "criterion": "minimum mean calendar-CV RMSE",
+  "selected": "Ridge",
+  "tuning": {
+    "Ridge": {
+      "params": {
+        "estimator__model__alpha": 10
+      },
+      "cv_rmse": 45.712351095903635,
+      "cv_std": 16.274935478166714,
+      "cv_mae": 32.69624664998056,
+      "fold_rmse": [
+        34.98750069445137,
+        33.43835162699827,
+        68.71120096626126
+      ],
+      "candidates": 4,
+      "seconds": 1.0118891999591142,
+      "default_grid_first_rmse": 45.71816285827643
+    },
+    "RandomForest": {
+      "params": {
+        "estimator__model__max_depth": 10,
+        "estimator__model__max_features": 0.8,
+        "estimator__model__min_samples_leaf": 10
+      },
+      "cv_rmse": 46.29154228347364,
+      "cv_std": 18.145281087952313,
+      "cv_mae": 31.852354253428228,
+      "fold_rmse": [
+        34.61579222001039,
+        32.339660268115146,
+        71.9191743622954
+      ],
+      "candidates": 4,
+      "seconds": 95.30244909995236,
+      "default_grid_first_rmse": 46.69906991248337
+    },
+    "HistGradientBoosting": {
+      "params": {
+        "estimator__model__l2_regularization": 10,
+        "estimator__model__learning_rate": 0.05,
+        "estimator__model__max_leaf_nodes": 31
+      },
+      "cv_rmse": 48.975970788143165,
+      "cv_std": 20.062759228736013,
+      "cv_mae": 34.04895330491981,
+      "fold_rmse": [
+        36.22219078241649,
+        33.40343520673452,
+        77.30228637527847
+      ],
+      "candidates": 8,
+      "seconds": 34.1050019999966,
+      "default_grid_first_rmse": 50.73307880130502
+    }
+  }
+}
